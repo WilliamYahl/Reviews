@@ -7,13 +7,13 @@ body {
 	display: grid;
 	
 	grid-template-rows: 1fr;
-	grid-template-columns: 100px 1fr;
+	grid-template-columns: 160px 1fr;
 }
 
 .grid2 {
 	display: grid;
 	
-	grid-template-rows: 100px 1fr;
+	grid-template-rows: 160px 1fr;
 	grid-template-columns: 1fr;
 	
 	background-color: green;
@@ -54,22 +54,22 @@ header {
 @media all and (max-width: 600px) {
 	
 	.grid1 {
-	grid-template-rows: 100px 1fr;
+	grid-template-rows: 160px 1fr;
 	grid-template-columns: 1fr;
 		
 	}
 	
 	.grid2 {
 	grid-template-rows: 1fr;
-	grid-template-columns: 100px 1fr;
+	grid-template-columns: 160px 1fr;
 	}
 	
 	nav li {
 		float: left;
 		
 		padding: 0 8px;
-		height: 90px;
-		line-height: 90px;
+		height: 70px;
+		line-height: 70px;
 		vertical-align: middle;
 	}
 }
